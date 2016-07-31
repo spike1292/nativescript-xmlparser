@@ -1,14 +1,14 @@
 import {Observable} from 'data/observable';
-import {YourPlugin} from 'nativescript-yourplugin';
+import {XMLParser} from 'nativescript-xmlparser';
 
 export class HelloWorldModel extends Observable {
   public message: string;
-  private yourPlugin: YourPlugin;
+  private yourPlugin: XMLParser;
 
   constructor() {
     super();
 
-    this.yourPlugin = new YourPlugin();
+    this.yourPlugin = new XMLParser();
     this.message = this.yourPlugin.message;
   }
 }

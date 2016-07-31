@@ -12,9 +12,9 @@
       "node_modules/tns-platform-declarations/android17.d.ts",
       "node_modules/tns-platform-declarations/ios.d.ts",
       "node_modules/tns-platform-declarations/org.nativescript.widgets.d.ts",
-      "yourplugin.common.ts",
-      "yourplugin.android.ts", 
-      "yourplugin.ios.ts"
+      "xmlparser.common.ts",
+      "xmlparser.android.ts", 
+      "xmlparser.ios.ts"
     ],
     "compileOnSave": false
 }

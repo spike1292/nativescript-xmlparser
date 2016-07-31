@@ -1,8 +1,8 @@
 {
-  "name": "nativescript-yourplugin",
+  "name": "nativescript-xmlparser",
   "version": "1.0.0",
   "description": "Your awesome NativeScript plugin.",
-  "main": "yourplugin.js",
+  "main": "xmlparser.js",
   "typings": "index.d.ts",
   "nativescript": {
     "platforms": {
@@ -14,12 +14,12 @@
     "build": "tsc",
     "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
     "demo.android": "npm run preparedemo && cd demo && tns run android",
-    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-yourplugin && tns plugin add .. && tns install",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-xmlparser && tns plugin add .. && tns install",
     "setup": "cd demo && npm install && cd .. && npm run build && cd demo && tns plugin add .. && cd .."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YourName/nativescript-yourplugin.git"
+    "url": "https://github.com/spike1292/nativescript-xmlparser.git"
   },
   "keywords": [
     "NativeScript",
@@ -28,17 +28,17 @@
     "iOS"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "youremail@yourdomain.com"
+    "name": "Henk Bakker",
+    "email": "spike1292@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/YourName/nativescript-yourplugin/issues"
+    "url": "https://github.com/spike1292/nativescript-xmlparser/issues"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/YourName/nativescript-yourplugin/blob/master/LICENSE"
+    "url": "https://github.com/spike1292/nativescript-xmlparser/blob/master/LICENSE"
   },
-  "homepage": "https://github.com/YourName/nativescript-yourplugin",
+  "homepage": "https://github.com/spike1292/nativescript-xmlparser",
   "readmeFilename": "README.md",
   "devDependencies": {
     "tns-platform-declarations": "^2.0.0",
